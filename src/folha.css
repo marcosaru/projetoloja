@@ -1,0 +1,73 @@
+body{
+    background-color: darkgrey;
+    display: grid;
+    grid-template-rows: 150px 1fr 35px;
+}
+ /* TUDO AQUI FICA NA HEADER */
+.header div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+    /* TUDO DAQUI PARA BAIXO É SECTION */
+section{
+
+    background-color: #4c707762;
+}
+
+.nav-link,#noite{
+    color:rgb(255, 255, 255) !important
+}
+.carousel-inner{
+    display: flex;
+    align-items: flex-start;
+    top: 0;
+    width: 10px;
+    height: 180px;
+    border-radius: 15px;
+}
+
+.conteudos .cards{
+    display: flex;
+    justify-content: center;
+    top: 0;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 280px;
+    border: #fff solid 0.1px;
+     border-radius: 15px;
+}
+.cards:hover{
+    box-shadow: 1px 1px 20px 1px rgb(0, 174, 218);
+}
+.conteudos .descricao{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+.titulo{
+    color: #fff;
+}
+.comprar{
+    text-decoration: none;
+    color: green !important
+}
+
+.red{
+    color:red;
+}
+    /* TUDO DAQUI PARA BAIXO É FOOTER */
+footer{
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    width: 100vw;
+    bottom: 0px;
+    background-color: rgb(81, 128, 112);
+}
+#footer{
+    border: solid 1px;
+    color: rgb(255, 255, 255);
+}
