@@ -8,4 +8,4 @@ $('#flexSwitchCheckDefault').click(function () {
         $('section').toggleClass('bg-dark')
         $('footer').toggleClass('bg-dark')
 })
-
+$('whatsapp').tooltip()
